@@ -4,12 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estudos de iframe</title>
+    <style>
+        iframe {
+            width: 400px;
+            height: 400px;
+            border: 1px solid black;
+        }
+    </style>
 </head>
 <body>
     <H1>Testando o uso de um iframe</H1>
     <p>Acessando o 
-        <iframe src="https://gabrielmoraesdepaula.github.io/html-css"frameborder="0"></iframe>
+        <iframe src="https://gabrielmoraesdepaula.github.io/html-css"frameborder="0" height="500" scooling="no"></iframe>
     para ver meus projetos.</p>
-    <p>o site do <iframe src="https://www.google.com.br/" frameborder="0"></iframe> também é legal de se ver.</p>
+    <p>
+        o site do 
+        <iframe src="https://www.google.com.br/" frameborder="0" height="500">
+        <a href="https://google.com.br" target="_blank">Google</a>
+    </iframe> 
+    também é legal de se ver, pena que não funciona no iframe.
+    </p>
 </body>
 </html>
