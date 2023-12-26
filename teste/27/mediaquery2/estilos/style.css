@@ -12,7 +12,7 @@ html, body {
     width: 100vw;
     height: 100vh;
     background-color: #1563a7;
-    background-size: contain;
+    background-size: auto;
     background-repeat: no-repeat;
 }
 
