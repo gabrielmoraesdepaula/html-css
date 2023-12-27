@@ -12,12 +12,12 @@ html, body {
     width: 100vw;
     height: 100vh;
     background-color: #1563a7;
-    background-size: auto;
+    background-size: contain;
     background-repeat: no-repeat;
 }
 
 h1 {
     color: antiquewhite;
-    text-shadow: 2px 2px 0px #1563a7;
+    text-shadow: 3px 3px 0px #1563a7;
     padding: 10px;
 }
