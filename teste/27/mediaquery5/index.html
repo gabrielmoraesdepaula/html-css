@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media Query</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
     <header>
         <h1>Meu Site</h1>
-        <menu>
+        <i id="menu" class="material-icons" onclick="clickmenu()">menu</i>
+        <menu id="item">
             <ul>
                 <li><a href="#">Opção 1</a></li>
                 <li><a href="#">Opção 2</a></li>
@@ -58,5 +60,14 @@
         The concept is simply Elliot singing her hit “Dream a Little Dream” to Tom as he tries to fall asleep in a big brass bed. Tom doesn’t say a word but gets plenty of laughs. The bit is sweet, original, musical and funny. When you strip away the tomplications, Tom was all those things.</p>
         </article>
     </main>
+    <script>
+        function clickmenu() {
+            if (item.style.display == 'block') {
+                item.style.display = 'none'
+            } else {
+                item.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>

@@ -19,8 +19,22 @@ header > h1 {
     text-align: center;
 }
 
-menu {
+i#menu {
+    background-color: rgba(0, 0, 0, 0.856);
+    color: white;
     display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+i#menu:hover {
+    background-color: limegreen;
+    color: black;
+}
+
+menu {
+    display: none;
 }
 
 menu > ul {
