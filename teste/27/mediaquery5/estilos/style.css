@@ -19,7 +19,7 @@ header > h1 {
     text-align: center;
 }
 
-i#menu {
+i#menu-burguer {
     background-color: rgba(0, 0, 0, 0.856);
     color: white;
     display: block;
@@ -28,7 +28,7 @@ i#menu {
     cursor: pointer;
 }
 
-i#menu:hover {
+i#menu-burguer:hover {
     background-color: limegreen;
     color: black;
 }
