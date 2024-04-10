@@ -1,0 +1,11 @@
+CORES ANDROID:
+
+#c5ebd6
+#3FDB90
+#31A86F
+#1B5C3C
+#365C4A
+
+FONTE:
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
